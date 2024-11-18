@@ -1,0 +1,36 @@
+ComandosCmd
+
+SALIR DEL CMD ( exit )
+
+LIMPIAR LA PANTALLA DEL CMD ( cls )
+
+MOVERTE ENTRE CARPETAS ( cd )
+
+	Ir a una carpeta ->			cd NombreDeLaCarpeta
+	Ir a una carpeta anterior ->    	cd ..
+	Ir a una ruta de carpeta ->     	cd C:\Ruta\A\La\Carpeta
+
+LISTA DE CARPETAS Y ARCHIVOS ( dir )
+
+CREAR Y ELIMINAR UNA CARPETA ( mkdir )
+
+	Crear una carpeta -> 			mkdir NombreDeLaCarpeta
+
+	Eliminar una carpeta -> 		rmdir NombreDeLaCarpeta
+	Eliminar una carpeta con contenido -> 	rmdir /s NombreDeLaCarpeta
+
+CREAR UN ARCHIVO VACÍO ( type nul > )
+	
+	Crear un archivo vacío .txt ->  	type nul > NombreDelArchivo.txt
+
+RENOMBRAR UN ARCHIVO O CARPETA ( rename )
+	
+	Renombrar archivo o carpeta -> 		rename NombreActual NuevoNombre
+	Ejemplo ---------------------> 		rename archivo.txt archivo_nuevo.txt
+
+ELIMINAR ARCHIVO ( del )
+
+	Eliminar archivo -> 			del NombreDelArchivo
+	Ejemplo---------------------> 		del archivo.txt
+
+
