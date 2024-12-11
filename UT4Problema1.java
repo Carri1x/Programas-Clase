@@ -40,6 +40,7 @@ public class UT4Problema1 {
         titulos[17] = "La metamorfosis";
         titulos[18] = "Madame Bovary";
         titulos[19] = "La casa de los espiritus";
+        titulos[20] = "Cambio para git";
         do{
             System.out.println("\nGESTIÓN DE TÍTULOS DE BIBLIOTECA");
             System.out.println("---------------------------------");
