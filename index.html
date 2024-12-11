@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #ul{
+            list-style-type: none;
+        }
+
+        table, tr, td{
+            border:1px;
+            border-color: black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post" accept-charset="UTF-8" autocomplete="on">
+        <fieldset>
+            <legend>DATOS PERSONALES</legend>
+            <table>
+                <tr>
+                    <td>Nombre:</td>
+                    <td>Apellidos:</td>
+                    <td>DNI:</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="datos" placeholder="Alvaro" id="nombre" required></td>
+                    <td><input type="text" name="datos" placeholder="Carrion Romero" id="Apellidos" required></td>
+                    <td><input type="text" name="datos" placeholder="DNI" id="dni"  pattern="[0-9]{8}[A-Za-z]{1}" title="Debe poner 8 dígitos y una letra" minlength="9" maxlength="9" required></td>
+                </tr>
+                <tr>
+                    <td>Localidad De Nacimineto:</td>
+                    <td>Provincia:</td>
+                    <td>Fecha de Nacimineto:</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="datos" id="Localidad-nacimiento"></td>
+                    <td><select name="provincia" id="provincia">
+                        <option value="huelva">Huelva</option>
+                        <option value="alicante">alicante</option>
+                        <option value="petrer">Petrer</option>
+                    </select></td>
+                    <td><input type="date" name="datos" id=" fecha_nac"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Dirección</td>
+                    <td>Codigo Postal</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text" name="datos" id="Dirección" size="46"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>    
+        </fieldset>
+        <fieldset>
+            <legend>Forma de Acceso</legend>
+                <ul >
+                    <li><input type="radio" name="forma-acceso" value="Directo" id="Directo"><label for="Directo">Directo</label></li>
+                    <ul id="ul">
+                        <li><input type="radio" name="modo" id="Bachillerato"><label for="Bachillerato">Bachillerato Log Modalidad</label><input type="text"></li>
+                        <li><input type="radio" name="modo" id="COU"><label for="COU">COU Opción</label><input type="text"></li>
+                    </ul>
+                    <li><input type="radio" name="forma-acceso" value="Libre" id="Libre"><label for="Libre">Prueba Libre</label></li>
+                </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Documentos Adjuntados</legend>
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="documentos" id="dni" value="dni-fotocopia">aasdfadfasdfa</td>
+                    <td><input type="checkbox" name="documentos" id="Certificado" value="certificado-academico">Certificado Académico</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="checkbox" name="documentos" id="Otros" value="Otros-documentos">Otros documentos (ersdpasofj) <input type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <label for=""></label>
+        <input type="password" name="contraseña" id="contraseña">
+        <input type="submit" name="button" id="button" value="ostia puta">
+        <button type="menu">mnuuuuu</button>
+        <button type="reset">RESETEAR</button>
+        <button type="submit">Holaaaaa</button>
+    </form>
+</body>
+</html>
